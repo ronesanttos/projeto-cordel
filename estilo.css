@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.837);
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 82px;
+    font-weight: bold;
+   
+}
+
+header p {
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+section {
+    display: block;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+
+    line-height: 2em;
+    font-size: 3.5vw;
+}
+
+.normal {
+        background-color: white;
+        color: black;
+}
+
+#img1 {
+    background-image: url('./imagens/background001.jpg');
+    background-position: right center;
+}
+#img2 {
+    background-image: url('./imagens/background002.jpg');
+    background-position: right center;
+}
+
+.imagem {
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.276);
+
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.imagem  p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.924);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
